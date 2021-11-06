@@ -3,7 +3,7 @@
 <!--     head     -->
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="eshop.css">
+    <link rel="stylesheet" href="styly.css">
     <title>e-shop Scryptem</title>
     <style> </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,87 +13,105 @@
 
 <body>
 
-    <header>        
-        <ul>
-            <li><a href="eshop.html">E-shop</a> </li>
-            <li><a href="bitcoin.html">Bitcoin</a></li>
-            <li class="logo"><a href="index.html" style="padding:0 5px"><div id="logostranky"></div></a></li>
-            <li><a href="alty">Altcoiny</a></li>
-            <li><a href="news">Novinky</a></li>
-        </ul>            
+    <header>       
+        <div class="">
+        <nav id="mobile-menu">
+            <ul>
+                <li><a href="eshop.html">E-shop</a> </li>
+                <li><a href="bitcoin.html">Bitcoin</a></li>
+                <li id="logostranky"><a href="index.html" style="padding: 0 5px; padding-bottom: 7px;"><div ></div></a></li>
+                <li><a href="alty">Altcoiny</a></li>
+                <li><a href="news">Novinky</a></li>
+            </ul>
+            <a href="cart.html">
+            <svg id="kosik" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
+                <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
+            </svg>
+            </a>
+        </nav> 
+    </div>
+        <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <script>
+            document.querySelector('#hamburger').onclick = e => document.querySelector('#mobile-menu').classList.toggle('active-menu')
+        </script>
     </header>
 <!--     main     -->
 <main>
     <div class="categories">
         <div class="small-container">
             <h2 class="title">Produkty</h2>
+            
             <div class="row">
-                <div class="col-4">
+                <a class="col-4" href="">
                     <img src="image/btc-image/Espresso1.png">
                     <h4>Espresso šálek Bitcoin</h4>   
                     <p class="cena"> 289 - 439 Kč</p> 
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/HODLcepice1.png">
                     <h4>Kšiltovka HODL</h4>   
                     <p class="cena">649 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/Hrnek1-1.png">
                     <h4>Hrnek Bitcoin</h4>   
                     <p class="cena"> 489 Kč</p>
-                </div>
+                </a>
             </div>
             <div class="row">
-                <div class="col-4">
+                <a class="col-4" href="">
                     <img src="image/btc-image/krigl1.png">
                     <h4>Pivní půllitr Bitcoin</h4>   
                     <p class="cena"> 299 - 329 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/ksilt1.png">
                     <h4>Kšiltovka Bitcoin</h4>   
                     <p class="cena">599 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/paska1.png">
                     <h4>Lepící páska HODL</h4>   
                     <p class="cena"> 89 Kč</p>
-                </div>
+                </a>
             </div>
             <div class="row">
-                <div class="col-4">
+                <a class="col-4" href="">
                     <img src="image/btc-image/penezenka1.png">
                     <h4>Peněženka „Bitcoin Fixes This“</h4>   
                     <p class="cena"> 749 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/polstarek1.png">
                     <h4>Polštářek Bitcoin</h4>   
                     <p class="cena">789 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/Snap1.png">
                     <h4>Snapback Bitcoin</h4>   
                     <p class="cena"> 649 Kč</p>
-                </div>
+                </a>
             </div>
             <div class="row">
-                <div class="col-4">
+                <a class="col-4" href="">
                     <img src="image/btc-image/Obrazek-Trezor-Model-T.png">
                     <h4>HW peněženka Trezor T</h4>   
                     <p class="cena"> 4999 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/T1_device.png">
                     <h4>HW peněženka Trezor One</h4>   
                     <p class="cena">1699 Kč</p>
-                </div>
-                <div class="col-4">
+                </a>
+                <a class="col-4" href="">
                     <img src="image/btc-image/knoflicky1.png">
                     <h4>Manžetové knoflíčky Bitcoin</h4>   
                     <p class="cena"> 999 Kč</p>
-                </div>
+                </a>
             </div>
         </div>
     </div>
