@@ -86,35 +86,35 @@ ul {
   margin: 50px 0px;
   color: #ffffff;
 }
-.row {
+.shop {
   justify-content: center;
   display: flex;
   color: #ffffff;
   margin-top: 50px;
   }
-.col-4 {
+.item {
   text-align: center;
   flex-basis: 30%;
   min-width: 35%;
   margin-bottom: 25px;
   transition: transform 0.5s;
 }
-.col-4 img {
+.item img {
   border-radius: 25px;
   width: 80%;
 }
-.col-4 p{
+.item p{
   color: #ff6800;
   font-size: x-large;
   font-weight:bold;
 }
-.col-4 h4{
+.item h4{
   text-align: center;
   color: white;
   font-size: x-large;
   font-weight: 600;
 }
-.col-4:hover{
+.item:hover{
   transform: scale(120%);
 }
 
@@ -341,10 +341,10 @@ footer li{
     display: flex;
     justify-content: space-between;
   }
-  .row {
+  .shop {
     flex-direction: column;
   }
-  .col-4{
+  .item{
     margin-top: 5%;
   }
   
