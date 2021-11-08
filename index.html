@@ -12,99 +12,101 @@
 </head>
 
 <body>
-
-    <header>        
-        <ul>
-            <li><a href="eshop.html">E-shop</a> </li>
-            <li><a href="bitcoin.html">Bitcoin</a></li>
-            <li id="logostranky"><a href="index.html" style="padding:0 5px"><div ></div></a></li>
-            <li><a href="alty">Altcoiny</a></li>
-            <li><a href="news">Novinky</a></li>
-        </ul>            
+    <header>       
+        <div class="">
+        <nav id="mobile-menu">
+            <ul>
+                <li><a href="eshop.html">E-shop</a> </li>
+                <li><a href="bitcoin.html">Bitcoin</a></li>
+                <li id="logostranky"><a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"><div ></div></a></li>
+                <li><a href="alty">Altcoiny</a></li>
+                <li><a href="news">Novinky</a></li>
+            </ul>
+        </nav> 
+    </div>
+        <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <script>
+            document.querySelector('#hamburger').onclick = e => document.querySelector('#mobile-menu').classList.toggle('active-menu')
+        </script>
+    </header>          
     </header>
-<!--     main     -->
+<!-- ------------------------------------------------------------------- MAIN --------------------------------------------------------- -->
     <main>
-        <h1> Ahoj </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. </p>
-        <h1> Ahoj </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. </p>
-        <h1> Ahoj </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. </p>           
-            <h1> Ahoj </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. </p>        
-            <h1> Ahoj </h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor.Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi scelerisque luctus velit. Nulla non lectus
-            sed nisl molestie malesuada. Etiam egestas wisi a erat. Nullam sit amet magna in magna gravida vehicula.
-            Donec ipsum massa, ullamcorper in, auctor et, scelerisque sed, est. Sed elit dui, pellentesque a, faucibus
-            vel, interdum nec, diam. Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus purus, vel
-            sagittis velit mauris vel metus. Duis risus. Proin in tellus sit amet nibh dignissim sagittis. Mauris dolor
-            felis, sagittis at, luctus sed, aliquam non, tellus. Aenean fermentum risus id tortor. Phasellus enim erat,
-            vestibulum vel, aliquam a, posuere eu, velit. Aliquam in lorem sit amet leo accumsan lacinia. Nullam at arcu
-            a est sollicitudin euismod. Aenean placerat. Fusce tellus odio, dapibus id fermentum quis, suscipit id erat.
-            Cras pede libero, dapibus nec, pretium sit amet, tempor quis. Aliquam id dolor. </p>         
+
+        <div class="main-1">
+            <div class="price"> 
+                <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,2010,5426,2,6636,74,825" currency="USD" theme="dark" transparent="true" show-symbol-logo="true"></div>
+            </div>
+
+            <!--  ---- Novinky ----  -->
+
+            <div class="news-1">
+                <h1 class="title-1">Novinky</h1>
+
+                <div class="news-2">
+                    <a href="https://www.e15.cz/kryptomeny/obrazem-cena-bitcoinu-leti-vzhuru-internet-zaplavily-krypto-meme-1384622" target="_blank" ><img src="image/news/BTC-News-toTheMoon.png"></a>
+                </div>    
+                <div class="news-2">
+                    <a href="https://www.e15.cz/kryptomeny/novy-starosta-new-yorku-na-twitteru-napsal-ze-chce-vyplatu-v-bitcoinech-1385015" target="_blank"><img src="image/news/BTC-News-starosta_NY.png"></a>
+                </div>
+                <div class="news-2">
+                    <a href="https://www.e15.cz/kryptomeny/ether-nastoupil-deflacni-cestu-a-bitcoin-uz-pry-neni-nejtvrdsi-mena-sveta-realita-je-slozitejsi-1385021" target="_blank"><img src="image/news/BTC-News-ETH_deflace.png"></a>
+                </div>
+                
+            </div>
             
+            <!--  ---- E-shop ----  -->   
+            <div class="shop-x">
+                <h1 class="title-1">E-shop</h1>
+                <div class="shop-1">
+                    <div class="shop">
+                        <a class="item" href="item.html">
+                            <img src="image/btc-image/Espresso1.png">
+                            <h4>Espresso šálek Bitcoin</h4>   
+                            <p class="cena"> 289 - 439 Kč</p> 
+                        </a>
+                        <a class="item" href="item.html">
+                            <img src="image/btc-image/HODLcepice1.png">
+                            <h4>Kšiltovka HODL</h4>   
+                            <p class="cena">649 Kč</p>
+                        </a>
+                        <a class="item" href="item.html">
+                            <img src="image/btc-image/Hrnek1-1.png">
+                            <h4>Hrnek Bitcoin</h4>   
+                            <p class="cena"> 489 Kč</p>
+                        </a>
+                    </div>
+                    <div class="button-shop">
+                        <a href="eshop.html">E-shop</a>
+                    </div>  
+                </div>
+            </div>
+
+            <!--  ---- Bitcoin ----  -->
+            <div class="btc-1">
+                <h1 class="title-1">Bitcoin</h1>
+
+            </div>
+
+            <!--  ---- Altcoiny ----  -->
+            <div class="alt-1">
+                <h1 class="title-1">Altcoiny</h1>
+            </div>
+
+            <!--  ---- BTCKNL ----  -->
+            <div class="btcknl-1">
+                <h1 class="title-1"><!--<img src="image/btc-image/Logo-Clean-noTitle.png">--> Bitcoinovej Kanál</h1>
+
+            </div>
+
+        </div>
+
     </main>
+    <!-- ------------------------------------------------------------------- FOOTER --------------------------------------------------------- -->
     <footer>
         <ul>
             <li>
