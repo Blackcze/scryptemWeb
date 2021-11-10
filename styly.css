@@ -5,7 +5,7 @@
 html,
 
 
-/*------------------------------------------------------------------------ MENU --------------------------------------------------------------------------------*/
+/*------------------------------------------------------------ MENU -------------------------------------------------------------------------------*/
 
 
 body {
@@ -28,7 +28,7 @@ header img {
   margin-right: 5px;
   /*margin-left: 5px;*/
 }
-.logo img{
+.logo img {
   /* width: 73px;*/
   max-width: 100%;
   max-height: 100%;
@@ -42,22 +42,22 @@ header img {
   /*margin-left: 5px;*/
   /*transition: transform 0.75s;*/
 }
-.logo a{
+.logo a {
   padding: 0 0 0 5px;
   /*padding: 0;*/
 }
-.logo img:hover{
+.logo img:hover {
   background-color: #191919;
   border-radius: 15px;
   /*color: #ff6800;*/
 }
 
-.logo a:hover{
+.logo a:hover {
   /*transform: scale(120%);*/
   background-color: #ff6800;
- /* padding-bottom: 5px;
+  /* padding-bottom: 5px;
   padding-top: 5px;*/
- }
+}
 
 header {
   background-color: #ff6800;
@@ -99,13 +99,11 @@ ul {
   justify-content: flex-end;
   list-style: none;
   padding: 0;
-  padding-right: 10px ;
+  padding-right: 10px;
   margin: 0;
 }
 
-
-/*--------------------------------------------------------------------------------- MAIN ------------------------------------------------------------------------*/
-
+/*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
 
 main {
   margin: 5%;
@@ -122,7 +120,7 @@ main {
   margin: auto;
   padding-left: 30px;
   padding-right: 30px;
-} 
+}
 
 .title {
   text-align: center;
@@ -151,7 +149,7 @@ main {
   display: flex;
   color: #ffffff;
   margin-top: 50px;
-  }
+}
 
 .item {
   text-align: center;
@@ -166,31 +164,31 @@ main {
   width: 80%;
 }
 
-.item p{
+.item p {
   color: #ff6800;
   font-size: x-large;
-  font-weight:bold;
+  font-weight: bold;
 }
 
-.item h4{
+.item h4 {
   text-align: center;
   color: white;
   font-size: x-large;
   font-weight: 600;
 }
-.item:hover{
+.item:hover {
   transform: scale(120%);
 }
 
 /*---------------------- MAIN_HomePage ------------------*/
 
-.main-1 h1{
+.main-1 h1 {
   color: #ffffff;
   font-size: xx-large;
   font-weight: 700;
   text-decoration: none;
 }
-.main-1 a{
+.main-1 a {
   text-decoration: none;
 }
 .title-1 {
@@ -214,56 +212,63 @@ main {
   left: 50%;
   transform: translateX(-50%);
 }
-/*.title-1 img{
-  width: 10%;
-  background-color: #ffffff;
-  padding: 5px;
-  border-radius: 25px;
-}*/
-.button-shop{
+.button-a {
   display: flex;
   justify-content: center;
   transition: transform 0.5s;
+  max-width: 100vw;
 }
-.button-shop a{
+.button-a a {
   padding: 10px 70px;
   border-radius: 25px;
   background-color: #ff6800;
   color: #000;
   text-decoration: none;
-  font-size:x-large;
+  font-size: x-large;
   font-weight: 800;
   margin: 5%;
 }
-.button-shop:hover {
+.button-a:hover {
   transform: scale(120%);
 }
-.shop-1{
+.shop-1 {
   margin: 50px 10%;
 }
-.news-1{
-  margin-bottom:10vw;
+.news-1 {
+  margin-bottom: 10vw;
 }
-.news-2{
+.news-2 {
   justify-content: center;
   display: flex;
   transition: transform 0.5s;
   margin: 2vw 0;
 }
-.news-2 img{
+.news-2 img {
   margin-top: 2vw;
   width: 70vw;
   border-radius: 2vw;
 }
-.news-2:hover{
+.news-2:hover {
   transform: scale(110%);
 }
-.price{
+.price {
   margin-bottom: 4vw;
+}
+.btc-1 {
+  display: flex;
+  justify-content: center;
+  margin: 7.5%;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 2vw;
+  text-align: justify;
+  transition: transform 0.25s;
+}
+.btc-1:hover {
+  transform: scale(105%);
 }
 
 /*------------------------------------------------------------------------------ FOOTER -------------------------------------------------------------------------*/
-
 
 footer {
   background-color: #191919;
@@ -271,28 +276,28 @@ footer {
   padding: 10px;
   height: max-content;
 }
-footer img{
+footer img {
   width: 75%;
 }
 #copyright::after {
   content: "Copyright @ 2021";
   color: #797979;
 }
-footer li{
+footer li {
   display: block;
   justify-content: right;
 }
-.sbar li{
+.sbar li {
   width: 10%;
   margin: 10px -30px;
 }
-.zdroj{
- justify-content: right;
-  display:flex;
-  width: 25%; 
+.zdroj {
+  justify-content: right;
+  display: flex;
+  width: 25%;
   text-decoration: none;
-  color:#ff6800;
-  font-size:medium;
+  color: #ff6800;
+  font-size: medium;
   font-weight: 600;
 }
 
@@ -301,16 +306,15 @@ footer li{
   color: #7e7e7e;
 }
 
-#logostranky a div{
-  width:80px;
-  height:80px;
+#logostranky a div {
+  width: 80px;
+  height: 80px;
   /* background: url(image/scryptem.png); */
   background: url(image/logo_cryptem_New/logo_scryptem_b.png);
   background-size: 80px 80px;
-  display:block;
-
+  display: block;
 }
-#logostranky a:hover  div{
+#logostranky a:hover div {
   background: url(image/logo_cryptem_New/logo_scryptem_o.png);
   background-size: 80px 80px;
 }
@@ -326,7 +330,7 @@ a:hover #logostranky {
 
 #kosik {
   position: absolute !important;
-  right:20px;
+  right: 20px;
   top: 20px;
   z-index: 10;
   width: 50px;
@@ -334,36 +338,35 @@ a:hover #logostranky {
   color: #000;
 }
 
-#hamburger{
-  display:none;
+#hamburger {
+  display: none;
 }
-
 
 /*---------------------------------------------------- RESPONSIVE -------------------------------------------------------*/
 
-
-@media (max-width: 992px) { 
-  .sbar li{
+@media (max-width: 992px) {
+  .sbar li {
     width: 300%;
   }
-  .zdroj{
-     width: 50%; 
+  .zdroj {
+    width: 50%;
   }
-  #logostranky,#kosik {
+  #logostranky,
+  #kosik {
     display: none;
   }
   /*  #kosik {
   }
   #header ul {
   }*/
-  #hamburger{
+  #hamburger {
     display: block;
     position: absolute !important;
-    right:20px;
+    right: 20px;
     top: 15px;
     z-index: 10;
     color: #000;
-    transition: .75s;
+    transition: 0.75s;
   }
   /*  #hamburger ::after{
     transform: translateY(-10%)
@@ -374,7 +377,7 @@ a:hover #logostranky {
     padding-bottom: 5px;
   }
   #mobile-menu.active-menu {
-    display:flex;
+    display: flex;
     background: #ff6800;
     width: 100vw;
     overflow: hidden;
@@ -382,14 +385,14 @@ a:hover #logostranky {
   #mobile-menu.active-menu ul {
     flex-direction: column;
     justify-content: flex-start;
-  }/* 
+  } /* 
   #mobile-menu.active-menu ul li {
-    /* width: 100%; *//*
+    /* width: 100%; */ /*
   }*/
   #mobile-menu.active-menu #kosik {
     position: absolute !important;
-    right:20px;
-    top:85px;
+    right: 20px;
+    top: 85px;
     display: block;
   }
   header {
@@ -399,10 +402,10 @@ a:hover #logostranky {
   .shop {
     flex-direction: column;
   }
-  .item{
+  .item {
     margin-top: 5%;
   }
-  
+
   /*
   #mobile-menu.active-menu::after{
     transform: translate3d(10%)
