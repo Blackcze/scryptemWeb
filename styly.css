@@ -338,7 +338,8 @@ a:hover #logostranky {
   color: #000;
 }
 
-#hamburger {
+#hamburger,
+#logostranky-mobil {
   display: none;
 }
 
@@ -368,6 +369,15 @@ a:hover #logostranky {
     color: #000;
     transition: 0.75s;
   }
+  #logostranky-mobil {
+    display: block;
+    position: absolute !important;
+    left: 20px;
+    top: 15px;
+    z-index: 10;
+    color: #000;
+    transition: 0.75s;
+  }
   /*  #hamburger ::after{
     transform: translateY(-10%)
   }*/
@@ -375,6 +385,7 @@ a:hover #logostranky {
     display: none;
     box-shadow: 15px 15px 15px #000;
     padding-bottom: 5px;
+    margin-top: 60px;
   }
   #mobile-menu.active-menu {
     display: flex;
