@@ -102,6 +102,46 @@ ul {
   padding-right: 10px;
   margin: 0;
 }
+#logostranky a div {
+  width: 80px;
+  height: 80px;
+  /* background: url(image/scryptem.png); */
+  background: url(image/logo_cryptem_New/logo_scryptem_b.png);
+  background-size: 80px 80px;
+  display: block;
+}
+#logostranky a:hover div {
+  background: url(image/logo_cryptem_New/logo_scryptem_o.png);
+  background-size: 80px 80px;
+}
+/*---------------------------------------------------------------------------------------------------*/
+.logostranky-mobil img {
+  /* width: 73px;*/
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+  border-radius: 15px;
+  border-spacing: 5px;
+  padding: 0 5px 0 5px;
+  background: #ff6800;
+  /*margin: auto;*/
+  /*margin-right: 5px;*/
+  /*margin-left: 5px;*/
+  /*transition: transform 0.75s;*/
+}
+.logostranky-mobil a {
+  padding: 0 0 0 5px;
+  /*padding: 0;*/
+}
+.logostranky-mobil img:hover {
+  background-color: #191919;
+  border-radius: 15px;
+}
+
+.logostranky-mobil a:hover {
+  background-color: #ff6800;
+}
+/*--------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
 
@@ -306,23 +346,8 @@ footer li {
   color: #7e7e7e;
 }
 
-#logostranky a div {
-  width: 80px;
-  height: 80px;
-  /* background: url(image/scryptem.png); */
-  background: url(image/logo_cryptem_New/logo_scryptem_b.png);
-  background-size: 80px 80px;
-  display: block;
-}
-#logostranky a:hover div {
-  background: url(image/logo_cryptem_New/logo_scryptem_o.png);
-  background-size: 80px 80px;
-}
-/*
-a:hover #logostranky {
-  background: url(image/logo_cryptem_New/logo_scryptem_o.png);
-  background-size: 80px 80px;
-}*/
+
+
 
 .categories a {
   text-decoration: none;
@@ -352,14 +377,9 @@ a:hover #logostranky {
   .zdroj {
     width: 50%;
   }
-  #logostranky,
   #kosik {
     display: none;
   }
-  /*  #kosik {
-  }
-  #header ul {
-  }*/
   #hamburger {
     display: block;
     position: absolute !important;
@@ -368,7 +388,7 @@ a:hover #logostranky {
     z-index: 10;
     color: #000;
     transition: 0.75s;
-  }
+  }/*
   #logostranky-mobil {
     display: block;
     position: absolute !important;
@@ -377,7 +397,7 @@ a:hover #logostranky {
     z-index: 10;
     color: #000;
     transition: 0.75s;
-  }
+  }*/
   /*  #hamburger ::after{
     transform: translateY(-10%)
   }*/
@@ -385,7 +405,7 @@ a:hover #logostranky {
     display: none;
     box-shadow: 15px 15px 15px #000;
     padding-bottom: 5px;
-    margin-top: 60px;
+    /*margin-top: 60px;*/
   }
   #mobile-menu.active-menu {
     display: flex;
