@@ -28,6 +28,16 @@ header img {
   margin-right: 5px;
   /*margin-left: 5px;*/
 }
+/*header img {
+  width: 7.5%;
+  border-radius: 15px;
+  display: flex;
+  justify-content: left;
+  padding: 2px;
+  margin-left: 2%;
+  margin-top: 0.5%;
+*/
+
 .logo img {
   /* width: 73px;*/
   max-width: 100%;
@@ -51,6 +61,7 @@ header img {
   border-radius: 15px;
   /*color: #ff6800;*/
 }
+
 
 .logo a:hover {
   /*transform: scale(120%);*/
@@ -102,17 +113,27 @@ ul {
   padding-right: 10px;
   margin: 0;
 }
-#logostranky a div {
+#home{
+  display: none;
+}
+#logostranky {
+  padding: 0px 0px;
+  margin-bottom: 5px;
+}
+#logostranky a{
   width: 80px;
   height: 80px;
-  /* background: url(image/scryptem.png); */
   background: url(image/logo_cryptem_New/logo_scryptem_b.png);
   background-size: 80px 80px;
   display: block;
+  
 }
-#logostranky a:hover div {
+#logostranky a:hover{
+  padding-bottom: 10px;
   background: url(image/logo_cryptem_New/logo_scryptem_o.png);
   background-size: 80px 80px;
+  background-color: #191919;
+  border-radius: 15px;
 }
 /*---------------------------------------------------------------------------------------------------*/
 #logostranky-mobil img {
@@ -142,7 +163,7 @@ ul {
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
 
 main {
-  margin: 5%;
+  margin: 1% 5%;
 }
 
 /*------------------------- E-Shop ---------------------*/
@@ -387,7 +408,9 @@ footer li {
     z-index: 10;
     color: #000;
     transition: 0.75s;
-  }/*
+  }
+
+  /*
   #logostranky-mobil {
     display: block;
     position: absolute !important;
@@ -435,7 +458,13 @@ footer li {
   .item {
     margin-top: 5%;
   }
-
+  #home{
+    display:flex;
+    margin-left: 1vw;
+  }
+  #logostranky{
+    display: none;
+  }
   /*
   #mobile-menu.active-menu::after{
     transform: translate3d(10%)
