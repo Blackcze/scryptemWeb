@@ -115,7 +115,7 @@ ul {
   background-size: 80px 80px;
 }
 /*---------------------------------------------------------------------------------------------------*/
-.logostranky-mobil img {
+#logostranky-mobil img {
   /* width: 73px;*/
   max-width: 100%;
   max-height: 100%;
@@ -124,23 +124,19 @@ ul {
   border-spacing: 5px;
   padding: 0 5px 0 5px;
   background: #ff6800;
-  /*margin: auto;*/
-  /*margin-right: 5px;*/
-  /*margin-left: 5px;*/
-  /*transition: transform 0.75s;*/
 }
-.logostranky-mobil a {
+#logostranky-mobil a {
   padding: 0 0 0 5px;
   /*padding: 0;*/
 }
-.logostranky-mobil img:hover {
+#logostranky-mobil img:hover {
   background-color: #191919;
   border-radius: 15px;
 }
-
-.logostranky-mobil a:hover {
+#logostranky-mobil a:hover {
   background-color: #ff6800;
 }
+
 /*--------------------------------------------------------------------------------------------------------*/
 
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
@@ -294,7 +290,7 @@ main {
 .price {
   margin-bottom: 4vw;
 }
-.btc-1 {
+.btc {
   display: flex;
   justify-content: center;
   margin: 7.5%;
@@ -304,8 +300,11 @@ main {
   text-align: justify;
   transition: transform 0.25s;
 }
-.btc-1:hover {
-  transform: scale(105%);
+.btc-1 img{
+  width: 25vw;
+  display: block;
+  text-align: center;
+  margin: 0px auto;
 }
 
 /*------------------------------------------------------------------------------ FOOTER -------------------------------------------------------------------------*/
