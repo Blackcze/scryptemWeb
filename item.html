@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="cs">
-<!--     head     -->
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styly.css">
-    <title>e-shop Scryptem</title>
+    <title>Scryptem</title>
     <style> </style>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,33 +12,35 @@
 </head>
 
 <body>
-
     <header>       
         <div class="">
+        
+        <!--<img src="image/logo_cryptem_New/logo_scryptem_b (1).svg">-->
         <nav id="mobile-menu">
+               
             <ul>
                 <li><a href="eshop.html">E-shop</a> </li>
                 <li><a href="bitcoin.html">Bitcoin</a></li>
-                <li id="logostranky"><a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"><div ></div></a></li>
-                <li><a href="alty">Altcoiny</a></li>
+                <li><div id="logostranky"><a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"></a></div><div id="home"><a href="index.html"> Home </div></a></li><!--<a href="index.html">Home</a> </li>-->
+                <li><a href="altcoin.html">Altcoiny</a></li>
                 <li><a href="news">Novinky</a></li>
             </ul>
-            <a href="cart.html">
-            <svg id="kosik" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket-fill" viewBox="0 0 16 16">
-                <path d="M5.071 1.243a.5.5 0 0 1 .858.514L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H15v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V9H.5a.5.5 0 0 1-.5-.5v-2A.5.5 0 0 1 .5 6h1.717L5.07 1.243zM3.5 10.5a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3zm2.5 0a.5.5 0 1 0-1 0v3a.5.5 0 0 0 1 0v-3z"/>
-            </svg>
-            </a>
-        </nav> 
-    </div>
+            <!--<div id="logostranky-mobil"style="padding: 0 5px; padding-bottom: 5px;"></div>-->
+        </nav>
+        <div class="logostranky-mm"><img src="image/logo_cryptem_New/logo_scryptem_b.png"></div>
+        </div>
+       
         <div id="hamburger">
             <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                 <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
             </svg>
+            
         </div>
+        <!--<div class="logostranky-m"><a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"></div>-->
         <script>
             document.querySelector('#hamburger').onclick = e => document.querySelector('#mobile-menu').classList.toggle('active-menu')
         </script>
-    </header>
+    </header>  
 <!-- ------------------------------------------------------------------- MAIN --------------------------------------------------------- -->
 <main>
 
