@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styly.css">
+    <title>Scryptem</title>
+    <style> </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="image/scryptem.png" type="image/png" />
+</head>
+
+<body>
+    <header>       
+        <div class="">
+        <!--<div class="logostranky">xxx<a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"></div>-->
+        <!--<img src="image/logo_cryptem_New/logo_scryptem_b (1).svg">-->
+        <nav id="mobile-menu">
+               
+            <ul>
+                <li><a href="eshop.html">E-shop</a> </li>
+                <li><a href="bitcoin.html">Bitcoin</a></li>
+                <li><div id="logostranky"><a href="index.html" style="padding: 0 5px; padding-bottom: 5px;"></a></div><div id="home"><a href="index.html"> Home </div></a></li><!--<a href="index.html">Home</a> </li>-->
+                <li><a href="altcoin.html">Altcoiny</a></li>
+                <li><a href="news">Novinky</a></li>
+            </ul>
+            <div id="logostranky-mobil"style="padding: 0 5px; padding-bottom: 5px;"></div>
+        </nav>
+        </div>
+       
+        <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" width="52" height="52" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+            </svg>
+        </div>
+        <script>
+            document.querySelector('#hamburger').onclick = e => document.querySelector('#mobile-menu').classList.toggle('active-menu')
+        </script>
+    </header>                                                                                                                                                                                                   
+<!-- ------------------------------------------------------------------- MAIN --------------------------------------------------------- -->
+    <main>
+        <div class="alt-x">
+            <div class="alt-1">
+                <h2 class="title">Altcoiny</h2>
+                <div class="alt">
+                    <a class="alts" href="">
+                        <img src="image/alt/ethereum-eth.svg">
+                        <h4>Ethereum</h4>
+                        <p>Ethereum je kryptoměna (ETH) a open-source platforma založená na decentralizované databázi, tzv. blockchainu, který chrání před neoprávněným zásahem...</p>
+                    </a>
+                    <a class="alts" href="">
+                        <img src="image/alt/litecoin.svg">
+                        <h4>Litecoin</h4>
+                        <p>Litecoin je alternativní digitální měna a platební decentralizovaná P2P síť, založená na bitcoinu. Decentralizovaného konsensu o svém stavu dosahuje důkazem prací využívajícím paměťově náročnou hašovací funkci...</p>
+                    </a>
+                    <a class="alts" href="">
+                        <img src="image/alt/cardano.svg">
+                        <h4>Cardano</h4>
+                        <p>Cardano je veřejná blockchainová platforma. Je open source a decentralizovaná, s konsensem dosaženým pomocí proof of stake . To může usnadnit peer-to-peer transakce...</p>
+                    </a>
+                </div>
+                <div class="alt">
+                    <a class="alts" href="">
+                        <img src="image/alt/dogecoin-1.svg">
+                        <h4>Dogecoin</h4>
+                        <p>Dogecoin je kryptoměna a P2P platební síť, ve které se tato měna používá. Dogecoin se označuje zkratkami DOGE nebo XDG, popřípadě symbolem Ð. Síť má veřejně přístupný zdrojový kód...</p>
+                    </a>
+                    <a class="alts" href="">
+                        <img src="image/alt/dash-3.svg">
+                        <h4>Dash</h4>
+                        <p>Dash je internetová open source peer-to-peer kryptoměna, která nabízí okamžité transakce, transakce zaručující soukromí...</p>
+                    </a>
+                    <a class="alts" href="">
+                        <img src="image/alt/ripple-2.svg">
+                        <h4>Ripple</h4>
+                        <p>XRP je označení pro kryptoměnu (XRP). XRP je nativní kryptoměnou sítě s názvem XRP Ledger, která funguje na základě kryptografie, distribuovaných záznamů...</p>
+                    </a>
+                </div>
+            
+            </div>
+        </div>
+    </main>
+    <!-- ------------------------------------------------------------------- FOOTER --------------------------------------------------------- -->
+    <footer>
+        <ul>
+            <li>
+                <a class="zdroj" href="https://bitcoinovejkanal.cz/" target="_blank"> <img src="image/btc-image/Logo_for_blackBG.png"></a>
+            </li>
+            <li>
+                <ul>
+                    <li class="sbar"><a href="https://www.facebook.com/BitcoinovejKanal" target="_blank"><img src="image/social_logo/facebook.png" alt="facebook"></a></li>
+                    <li class="sbar"><a href="https://www.instagram.com/BitcoinovejKanal" target="_blank"><img src="image/social_logo/instagram.png" alt="instagram"></a></li>
+                    <li class="sbar"><a href="https://discord.gg/HWG9Erm" target="_blank"><img src="image/social_logo/discord.png" alt="discord"></a></li>
+                    <li class="sbar"><a href="http://twitter.com/bitcoinovejKnl" target="_blank"><img src="image/social_logo/twitter.png" alt="twitter"></a></li>
+                    <li class="sbar"><a href="http://youtube.com/bitcoinovejkanal" target="_blank"><img src="image/social_logo/youtube.png"  alt="youtube"></a></li>
+                </ul>    
+            </li>
+        </ul> 
+    </footer>
+</body>
+
+</html>

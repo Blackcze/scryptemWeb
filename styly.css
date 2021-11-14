@@ -23,7 +23,7 @@ header img {
   border-radius: 15px;
   border-spacing: 5px;
   padding: 0 5px 0 5px;
-  background-color: #ffffff;
+  /*background-color: #ffffff;*/
   /*margin: auto;*/
   margin-right: 5px;
   /*margin-left: 5px;*/
@@ -46,7 +46,6 @@ header img {
   border-radius: 15px;
   border-spacing: 5px;
   padding: 0 5px 0 5px;
-  background: #ff6800;
   /*margin: auto;*/
   /*margin-right: 5px;*/
   /*margin-left: 5px;*/
@@ -126,8 +125,7 @@ ul {
   background: url(image/logo_cryptem_New/logo_scryptem_b.png);
   background-size: 80px 80px;
   display: block;
-  
-}
+  }
 #logostranky a:hover{
   padding-bottom: 10px;
   background: url(image/logo_cryptem_New/logo_scryptem_o.png);
@@ -135,6 +133,10 @@ ul {
   background-color: #191919;
   border-radius: 15px;
 }
+.logostranky-mm{
+  display: none;
+}
+
 /*---------------------------------------------------------------------------------------------------*/
 #logostranky-mobil img {
   /* width: 73px;*/
@@ -236,6 +238,7 @@ main {
 .item:hover {
   transform: scale(120%);
 }
+/*-------------------------- Bitcoin --------------------*/
 
 /*---------------------- MAIN_HomePage ------------------*/
 
@@ -327,8 +330,55 @@ main {
   text-align: center;
   margin: 0px auto;
 }
+/*-------------------------- Altcoiny -------------------*/
+.alt-1 {
+  max-width: 1080px;
+  margin: 5% auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.alt {
+  justify-content: center;
+  display: flex;
+  color: #ffffff;
+  margin: 8%;
+}
+.alts {
+  text-align: center;
+  flex-basis: 30%;
+  min-width: 35%;
+  margin-bottom: 25px;
+  text-decoration: none;
+  transition: transform 0.5s;
+  margin: 0 5%;
+}
+
+.alts img {
+  border-radius: 25px;
+  width: 80%;
+}
+
+.alts p {
+  color: #ffffff;
+  font-size: large;
+  font-weight: 500;
+  text-align: center;
+}
+
+.alts h4 {
+  text-align: center;
+  color: #ff6800;
+  font-size: xx-large;
+  font-weight: 700;
+}
+.alts:hover {
+  transform: scale(110%);
+}
+/*--------------------------- News ----------------------*/
+
 
 /*------------------------------------------------------------------------------ FOOTER -------------------------------------------------------------------------*/
+
 
 footer {
   background-color: #191919;
@@ -365,9 +415,6 @@ footer li {
   content: "Copyright @ 2021";
   color: #7e7e7e;
 }
-
-
-
 
 .categories a {
   text-decoration: none;
@@ -452,10 +499,10 @@ footer li {
     display: flex;
     justify-content: space-between;
   }
-  .shop {
+  .shop .alt {
     flex-direction: column;
   }
-  .item {
+  .item .alts {
     margin-top: 5%;
   }
   #home{
@@ -468,5 +515,26 @@ footer li {
   /*
   #mobile-menu.active-menu::after{
     transform: translate3d(10%)
+  }*//*
+  .logostranky-m a{
+    width: 80px;
+    height: 80px;
+    background: url(image/logo_cryptem_New/logo_scryptem_b.png);
+    background-size: 80px 80px;
+    display: block;
+  }
+  .logostranky-m a:hover{
+    padding-bottom: 10px;
+    background: url(image/logo_cryptem_New/logo_scryptem_o.png);
+    background-size: 80px 80px;
+    background-color: #191919;
+    border-radius: 15px;
   }*/
+  .logostranky-mm{
+    width:8.5ch;
+    margin-left: 1ch;
+    margin-top: 5px;
+    z-index: 10;
+    display: block;
+  }
 }
