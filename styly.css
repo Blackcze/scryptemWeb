@@ -98,7 +98,7 @@ header ul a:hover {
   background-color: #191919;
   border-radius: 15px;
   color: #ff6800;
-}
+} 
 li {
   float: left;
   height: 100%;
@@ -240,6 +240,41 @@ main {
 }
 /*-------------------------- Bitcoin --------------------*/
 
+.bitcoin{
+display: flex;
+justify-content: center;
+}
+.bitcoin img{
+  width: 25vw;
+  padding: 2.5vw;
+  margin: 2.5% 0;
+}
+.bitcoin h2{
+  color: #ff6800;
+  font-size: xx-large;
+  font-weight: 800;
+}
+.bitcoin p{
+  color: #ffffff;
+  font-weight: 600;
+  font-size: large;
+  text-align: justify;
+  margin: 0 5%;
+  padding: 1%;
+}
+.bitcoin a{
+  text-decoration: none;
+  color: #ff6800;
+  font-size: small;
+}
+.bitcoin-video{
+  margin: 5% 0;
+  display: flex;
+  justify-content: center;
+}
+.bitcoinx{
+  margin-bottom: 5%;
+}
 /*---------------------- MAIN_HomePage ------------------*/
 
 .main-1 h1 {
