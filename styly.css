@@ -165,7 +165,7 @@ ul {
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
 
 main {
-  margin: 1% 5%;
+  margin: 1.5% 5%;
 }
 
 /*------------------------- E-Shop ---------------------*/
@@ -215,6 +215,7 @@ main {
   flex-basis: 30%;
   min-width: 35%;
   margin-bottom: 25px;
+  text-decoration: none;
   transition: transform 0.5s;
 }
 
@@ -349,13 +350,16 @@ justify-content: center;
 .price {
   margin-bottom: 4vw;
 }
+.btc-x{
+  margin: 0 5%;
+}
 .btc {
   display: flex;
   justify-content: center;
   margin: 7.5%;
   color: #ffffff;
   font-weight: 600;
-  font-size: 2vw;
+  font-size: large;
   text-align: justify;
   transition: transform 0.25s;
 }
@@ -365,7 +369,29 @@ justify-content: center;
   text-align: center;
   margin: 0px auto;
 }
+.alt-x{
+  margin: 0 10%;
+}
+.btcknl-x{
+  margin:2% 5%;
+  text-decoration: none;
+  justify-content: center;
+
+}
+.btcknl-1 img{
+  width: 30%;
+  justify-content: center;
+  padding-left: 7.5%;
+}
+.btcknl-1 p{
+  color: #ffffff;
+  font-size: x-large;
+  text-align: center;
+  font-weight: 600;
+}
+
 /*-------------------------- Altcoiny -------------------*/
+
 .alt-1 {
   max-width: 1080px;
   margin: 5% auto;
