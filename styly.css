@@ -150,7 +150,6 @@ ul {
 }
 #logostranky-mobil a {
   padding: 0 0 0 5px;
-  /*padding: 0;*/
 }
 #logostranky-mobil img:hover {
   background-color: #191919;
@@ -159,10 +158,11 @@ ul {
 #logostranky-mobil a:hover {
   background-color: #ff6800;
 }
-
 /*--------------------------------------------------------------------------------------------------------*/
 
+
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
+
 
 main {
   margin: 1.5% 5%;
@@ -210,7 +210,7 @@ main {
   margin-top: 50px;
 }
 
-.item {
+.items {
   text-align: center;
   flex-basis: 30%;
   min-width: 35%;
@@ -219,26 +219,45 @@ main {
   transition: transform 0.5s;
 }
 
-.item img {
+.items img {
   border-radius: 25px;
   width: 80%;
 }
 
-.item p {
+.items p {
   color: #ff6800;
   font-size: x-large;
   font-weight: bold;
 }
 
-.item h4 {
+.items h4 {
   text-align: center;
   color: white;
   font-size: x-large;
   font-weight: 600;
 }
-.item:hover {
+.items:hover {
   transform: scale(120%);
 }
+/*--- item ---*/
+.item-x{
+  margin: 0 10%;
+}
+.i-nazev{
+  margin-top: 5%;
+  display: flex;
+  justify-content: left;
+}
+.i-nazev h3{
+  color: #ff6800;
+  font-weight: 700;
+  font-size: xx-large;
+  margin: 25px 0;
+}
+
+/*--- cart ---*/
+
+
 /*-------------------------- Bitcoin --------------------*/
 
 .bitcoin{
@@ -276,6 +295,7 @@ justify-content: center;
 .bitcoinx{
   margin-bottom: 5%;
 }
+
 /*---------------------- MAIN_HomePage ------------------*/
 
 .main-1 h1 {
@@ -535,13 +555,14 @@ footer li {
     display: none;
     box-shadow: 15px 15px 15px #000;
     padding-bottom: 5px;
-    /*margin-top: 60px;*/
+    
   }
   #mobile-menu.active-menu {
     display: flex;
     background: #ff6800;
-    width: 100vw;
+    width: 98vw;                                                            /*----------------------------------------------------*/
     overflow: hidden;
+    margin-bottom: -1000%;
   }
   #mobile-menu.active-menu ul {
     flex-direction: column;
@@ -563,7 +584,7 @@ footer li {
   .shop .alt {
     flex-direction: column;
   }
-  .item .alts {
+  .items .alts {
     margin-top: 5%;
   }
   #home{
