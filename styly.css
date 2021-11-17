@@ -239,7 +239,7 @@ main {
 .items:hover {
   transform: scale(120%);
 }
-/*--- item ---*/
+/*-------- item ---------*/
 .item-x{
   margin: 0 10%;
 }
@@ -253,9 +253,69 @@ main {
   font-weight: 700;
   font-size: xx-large;
   margin: 25px 0;
+  margin-left: 5%;
 }
 
-/*--- cart ---*/
+.i-img{
+  transform: translate(0%,-10%);
+  padding: 10px;
+  display: flex;
+  justify-content: left;
+}
+.i-img-s img{
+  height: 110px;
+  margin: 10px 0;
+  cursor:pointer;
+  display: block;
+  opacity: 0.5;
+}
+.i-img-s img:hover{
+  opacity: 1;
+}
+.i-img-s{
+  float:left;
+}
+.i-img-l img{
+  height: 350px;
+}
+.i-img-l{
+  float:right;
+  padding: 10px;
+}
+
+.i-info{
+  float: left;
+}
+.button-i {
+  display: flex;
+  transition: transform 0.5s;
+  max-width: 100vw;
+  justify-content: right;
+  transform: translateX(10ch);
+}
+.button-i a {
+  padding: 10px 70px;
+  border-radius: 25px;
+  background-color: #ff6800;
+  color: #000;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: 800;
+}
+.button-i:hover {
+  transform: scale(110%);
+}
+.i-cena{
+  display: flex;
+  justify-content: left;
+  transform:translateX(70vw)
+}
+.i-cena h4{
+  color: #ff6800;
+  font-weight: 800;
+  font-size: 3ch;
+}
+/*-------- cart --------*/
 
 
 /*-------------------------- Bitcoin --------------------*/

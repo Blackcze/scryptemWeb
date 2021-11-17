@@ -47,19 +47,26 @@
         <div class="i-nazev">
             <h3>Pivní půllitr Bitcoin</h3>
         </div>
-        <div class="item-1">
-            <img src="">
-        </div>
-        <div class="i-info">
-            <div class="i-s-info">
-                <p>Půllitr s vypískovaným logem Bitcoinu</p>
+        <div class="item-1"></div>
+            <div class="i-img">
+                <div class="i-img-s">
+                    <img src="image/btc-image/pullitr/krigl1-scaled.jpg" onclick="myFunction(this)">
+                    <img src="image/btc-image/pullitr/krigl2-scaled.jpg" onclick="myFunction(this)">
+                    <img src="image/btc-image/pullitr/krigl3-scaled.jpg" onclick="myFunction(this)">
+                </div>
+                <div class="i-img-l">
+                    <img id="imgBox" src="image/btc-image/pullitr/krigl1-scaled.jpg">
+                </div>
             </div>
             <div class="i-cena">
-                <p>Cena s DPH</p>
                 <h4>329 Kč</h4>
             </div>
-            <div class="i-buy">
-                <h5>Přidat do košíku</h5>
+            <!--<div class="i-info">-->
+                <!--<div class="i-s-info">
+                    <p>Půllitr s vypískovaným logem Bitcoinu</p>
+                </div>-->
+            <div class="button-i">
+                <a href="">Přidat do košíku</a>
             </div>
         </div>
         <div class="i-popis">
@@ -69,9 +76,17 @@
            
         </div>
     </div>
-   
+    <script>
+        function myFunction(smallImg)
+        {
+            var fullImg = document.getElementById("imgBox");
+            fullImg.src = smallImg.src;
+        }
+    </script>
+
 </main>
     <!-- ------------------------------------------------------------------- FOOTER --------------------------------------------------------- -->
+    <!--
 <footer>
     <ul>
         <li>
@@ -87,5 +102,5 @@
             </ul>    
         </li>
     </ul> 
-</footer>
+</footer>-->
 </body>
