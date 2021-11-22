@@ -240,67 +240,51 @@ main {
   transform: scale(120%);
 }
 /*-------- item ---------*/
-.item-x{
-  display: block;
-justify-content: center;
-}
-.item-1{
-  top:0;
-}
-.i-nazev{
-  margin-top: 4%;
-  margin-bottom: 2%;
+.item{
+  margin: 5% 0;
+  justify-content: center;
   display: flex;
-  justify-content: left;
 }
-.i-nazev h3{
-  color: #ff6800;
-  font-weight: 700;
-  font-size: xx-large;
-  margin: 25px 0;
-  margin-left: 5%;
+.i-popis{
+  display: block;
+  transform: translateY(5ch);
+  margin-bottom: 10ch;
 }
 .i-img{
-  transform: translate(0%,-10%);
-  padding: 10px;
-  display:inline-block;
-  float: left;
+  margin: 5ch;
+  display: flex;
+  justify-content: center;
 }
-.i-img-s img{
-  height: 110px;
-  margin: 10px 0;
-  cursor:pointer;
-  display: block;
-  opacity: 0.5;
-  border-radius: 5px;
-  border: 1px solid #ff6800;/*-----------------------------------------------------------------------------------*/
+.i-img img{
+  margin-top: 3vh;
+  object-fit: cover;
+  height: 400px;
+  width: 500px;
+  border-radius: 25px;
+  border: 2px solid #ff6800;
 }
-.i-img-s img:hover{
-  opacity: 1;
-}
-.i-img-s{
-  float:left;
-}
-.i-img-l img{
-  height: 350px;
-  object-fit:cover;
-  width: 350px;
-  border-radius: 10px;
-  border: 1px solid #ff6800;/*-----------------------------------------------------------------------------------*/
-}
-.i-img-l{
-  float:right;
-  padding: 10px;
+.i-nazev {
+  color: #ff6800;
+  font-size: 5ch;
 }
 .i-info{
-  float: left;
+  color: #ffffff;
+  font-size: large;
 }
-.button-i {
+.i-cena{
+  color: #ff6800;
+  font-size: 4ch;
+  font-weight: 800;
+  transform: translateX(-0ch);
+  
+}
+.i-button{
   max-width: 100vw;
   transition: transform 0.5s;
-  padding-left: 5ch;
+  margin: 5ch 0;
+  min-width: 333px;
 }
-.button-i a{
+.i-button a{
   text-decoration: none;
   padding: 10px 70px;
   border-radius: 25px;
@@ -310,36 +294,10 @@ justify-content: center;
   color: #000;
   border: 3px solid #ff6800;
 }
-.button-i a:hover { 
+.i-button a:hover { 
   color: #ff6800;
   background-color: #191919
 }
-.i-cena{
-padding-left: 25ch;
-}
-.i-cena h4{
-  color: #ff6800;
-  font-weight: 800;
-  font-size: 4ch;
-}
-.i-s-info{
-  color: #ffffff;
-  font-size: x-large;
-  font-weight: 600;
-}
-.i-popis{/*--------------------------------------------------------------------------------------------*/
-  margin: 35% 5% 0 5%;
-  color: #ffffff;
-  font-size: large;
-  top: 2;
-}
-.i-popis h3{
-  color: #ff6800;
-  font-size: 3ch;
-}
-/*-------- cart --------*/
-
-
 /*-------------------------- Bitcoin --------------------*/
 
 .bitcoin{
@@ -700,5 +658,25 @@ footer li {
     margin-top: 5px;
     z-index: 10;
     display: block;
+  }
+  .item{
+    margin-bottom: 5%;
+    justify-content: center;
+    display: block;
+    max-width: 90vw;
+  }
+  .i-img{
+    display: flex;
+    justify-content: center;
+  }
+  .i-img img{
+    width:80vw;
+    min-height: 100%;
+  }
+  .i-popis{
+    justify-content: center;
+    display:block;    
+    margin-bottom: 10ch;
+    margin-left: 7.5vw;
   }
 }
