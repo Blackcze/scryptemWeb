@@ -523,30 +523,41 @@ footer {
   height: max-content;
   margin-top: auto;
 }
+footer h5{
+  content:"studentský zápočtový projekt";
+  color: #9c9c9c;
+  display: flex;
+  justify-content: center;
+  font-size: large;
+  font-weight: 500;
+  margin: 0px;
+}
 footer img {
-  width: 75%;
+  width: 140px;
 }
 #copyright::after {
   content: "Copyright @ 2021";
-  color: #797979;
+  color: #9c9c9c;
 }
-footer li {
-  display: block;
-  justify-content: right;
+footer ul {
+  display: flex;
+  justify-content: center;
 }
 .sbar li {
   width: 10%;
-  margin: 10px -30px;
+  margin: 10px 0px;
+}
+.sbar img{
+  width: 70px;
+  padding: 5px;
 }
 .zdroj {
-  justify-content: right;
   display: flex;
   width: 25%;
   text-decoration: none;
   color: #ff6800;
   font-size: medium;
   font-weight: 600;
- 
 }
 
 #copyright::after {
@@ -699,5 +710,8 @@ footer li {
     display:block;    
     margin-bottom: 10ch;
     margin-left: 7.5vw;
+  }
+  .footer img{
+    transform: translateX(20px);
   }
 }
