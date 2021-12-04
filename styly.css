@@ -14,7 +14,6 @@ body {
   padding: 0;
   font-family: "Nunito", sans-serif;
 }
-
 header img {
   max-width: 100%;
   max-height: 100%;
@@ -24,7 +23,6 @@ header img {
   padding: 0 5px 0 5px;
   margin-right: 5px;
 }
-
 .logo img {
   max-width: 100%;
   max-height: 100%;
@@ -43,7 +41,6 @@ header img {
 .logo a:hover {
   background-color: #ff6800;
 }
-
 header {
   background-color: #ff6800;
   text-align: center;
@@ -363,6 +360,7 @@ main {
   color: #ff6800;
   background-color: #191919
 }
+
 /*-------------------------- Bitcoin --------------------*/
 
 .bitcoin{
@@ -500,7 +498,6 @@ justify-content: center;
   margin:2% 5%;
   text-decoration: none;
   justify-content: center;
-
 }
 .btcknl-1 img{
   width: 30%;
@@ -592,11 +589,8 @@ justify-content: center;
   margin-bottom: 5%;
 }
 
-/*--------------------------- News ----------------------*/
-
-
-
 /*--------------------------- Eror ----------------------*/
+
 .eror h1{
   display: flex;
   justify-content: center;
@@ -658,16 +652,13 @@ footer ul {
   font-size: medium;
   font-weight: 600;
 }
-
 #copyright::after {
   content: "Copyright @ 2021";
   color: #7e7e7e;
 }
-
 .categories a {
   text-decoration: none;
 }
-
 #kosik {
   position: absolute !important;
   right: 20px;
@@ -677,7 +668,6 @@ footer ul {
   height: 50px;
   color: #000;
 }
-
 #hamburger,
 #logostranky-mobil {
   display: none;
@@ -704,25 +694,10 @@ footer ul {
     color: #000;
     transition: 0.75s;
   }
-
-  /*
-  #logostranky-mobil {
-    display: block;
-    position: absolute !important;
-    left: 20px;
-    top: 15px;
-    z-index: 10;
-    color: #000;
-    transition: 0.75s;
-  }*/
-  /*  #hamburger ::after{
-    transform: translateY(-10%)
-  }*/
   #mobile-menu {
     display: none;
     box-shadow: 15px 15px 15px #000;
-    padding-bottom: 5px;
-    
+    padding-bottom: 5px;    
   }
   #mobile-menu.active-menu {
     display: flex;
@@ -734,10 +709,7 @@ footer ul {
   #mobile-menu.active-menu ul {
     flex-direction: column;
     justify-content: flex-start;
-  } /* 
-  #mobile-menu.active-menu ul li {
-    /* width: 100%; */ /*
-  }*/
+  } 
   #mobile-menu.active-menu #kosik {
     position: absolute !important;
     right: 20px;
@@ -754,7 +726,6 @@ footer ul {
   .shop{
     Flex-direction: column;
   }
-
   .items .alts {
     margin-top: 5%;
   }
@@ -765,24 +736,6 @@ footer ul {
   #logostranky{
     display: none;
   }
-  /*
-  #mobile-menu.active-menu::after{
-    transform: translate3d(10%)
-  }*//*
-  .logostranky-m a{
-    width: 80px;
-    height: 80px;
-    background: url(image/logo_cryptem_New/logo_scryptem_b.png);
-    background-size: 80px 80px;
-    display: block;
-  }
-  .logostranky-m a:hover{
-    padding-bottom: 10px;
-    background: url(image/logo_cryptem_New/logo_scryptem_o.png);
-    background-size: 80px 80px;
-    background-color: #191919;
-    border-radius: 15px;
-  }*/
   .logostranky-mm{
     width:8.5ch;
     margin-left: 1ch;
