@@ -16,55 +16,32 @@ body {
 }
 
 header img {
-  /* width: 73px;*/
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   border-radius: 15px;
   border-spacing: 5px;
   padding: 0 5px 0 5px;
-  /*background-color: #ffffff;*/
-  /*margin: auto;*/
   margin-right: 5px;
-  /*margin-left: 5px;*/
 }
-/*header img {
-  width: 7.5%;
-  border-radius: 15px;
-  display: flex;
-  justify-content: left;
-  padding: 2px;
-  margin-left: 2%;
-  margin-top: 0.5%;
-*/
 
 .logo img {
-  /* width: 73px;*/
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
   border-radius: 15px;
   border-spacing: 5px;
   padding: 0 5px 0 5px;
-  /*margin: auto;*/
-  /*margin-right: 5px;*/
-  /*margin-left: 5px;*/
-  /*transition: transform 0.75s;*/
 }
 .logo a {
   padding: 0 0 0 5px;
-  /*padding: 0;*/
 }
 .logo img:hover {
   background-color: #191919;
   border-radius: 15px;
-  /*color: #ff6800;*/
 }
 .logo a:hover {
-  /*transform: scale(120%);*/
   background-color: #ff6800;
-  /* padding-bottom: 5px;
-  padding-top: 5px;*/
 }
 
 header {
@@ -134,9 +111,8 @@ ul {
   display: none;
 }
 
-/*---------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------*/
 #logostranky-mobil img {
-  /* width: 73px;*/
   max-width: 100%;
   max-height: 100%;
   object-fit: cover;
@@ -155,7 +131,7 @@ ul {
 #logostranky-mobil a:hover {
   background-color: #ff6800;
 }
-/*--------------------------------------------------------------------------------------------------------*/
+/*----------------------------------------------*/
 
 
 /*-------------------------------------------------------------------- MAIN -----------------------------------------------------------------------*/
