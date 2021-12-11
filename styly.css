@@ -668,8 +668,7 @@ footer ul {
   height: 50px;
   color: #000;
 }
-#hamburger,
-#logostranky-mobil {
+#hamburger, #logostranky-mobil {
   display: none;
 }
 
@@ -702,7 +701,7 @@ footer ul {
   #mobile-menu.active-menu {
     display: flex;
     background: #ff6800;
-    width: 98vw;                                                            /*----------------------------------------------------*/
+    width: 100vw;                                                            /*----------------------------------------------------*/
     overflow: hidden;
     margin-bottom: -1000%;
   }
@@ -768,5 +767,18 @@ footer ul {
   }
   .cart1{
     Flex-direction: column;
+  }
+  .items:hover{
+    transform: none;
+  }
+}
+@media (max-width: 900px) { 
+  .bitcoin-graf{
+    display: none;    
+  }
+}
+@media (max-width: 490px) { 
+  .sbar{
+    display: none;
   }
 }
